@@ -1,0 +1,51 @@
+body{
+    display:flexbox;
+}
+
+body,html{
+    height: 100%;
+    margin: 0;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px blue;
+    color: white;
+    cursor: pointer;
+}
+
+.topdiv{
+    background-color: crimson;
+    display:flex;
+    height: 150px;
+}
+
+.subdiv1{
+    border:solid blue;
+    background-color: white;
+    cursor: pointer;
+    width: 300px;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px, 2px blue;
+    display: table-cell;
+    vertical-align: center;
+    text-align: center;
+}
+
+
+.maindiv{
+    border: 20px ridge white;
+    height: 86.8%;
+    width: 98.5%;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: table-cell;
+    vertical-align: center;
+    text-align: center;
+    background-color: blue;
+}
